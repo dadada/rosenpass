@@ -33,3 +33,6 @@ test_bin = "0.4.0"
 
 [features]
 default = ["log", "env_logger"]
+
+[patch.crates-io]
+oqs-sys = { git = 'https://github.com/dadada/liboqs-rust' }
